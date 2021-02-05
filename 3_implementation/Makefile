@@ -43,6 +43,9 @@ $(TST_OUT): $(TST_SRC) $(BUILD)
 
 all: $(OUT)
 
+run: $(OUT)
+	./$(OUT)
+
 test: $(TST_OUT)
 	./$(TST_OUT)
 
