@@ -2,6 +2,14 @@ PROJ_NAME = calc
 
 # Include additional C function files
 COMM_SRC = src/is_prime.c \
+		 	src/addition.c \
+			src/subtraction.c \
+			src/multiplication.c \
+			src/division.c \
+			src/exponential.c \
+			src/factorial.c \
+			src/modulus.c \
+			src/percentage.c \
 
 # Include additional C test files
 COMM_TST = test/test_is_prime.c \
