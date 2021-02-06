@@ -52,9 +52,9 @@ Name                  | PS Number            | No. of Test Cases             | N
 4. We faced challenges in makefile
 
 ## Learning folder
-![markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#images)
+1. ![markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#images)
 
-![git inspector](https://github.com/ejwa/gitinspector.git)
+2. ![git inspector](https://github.com/ejwa/gitinspector.git)
 
-![github workflow](https://docs.github.com/en/actions/learn-github-action) 
+3. ![github workflow](https://docs.github.com/en/actions/learn-github-action) 
 
