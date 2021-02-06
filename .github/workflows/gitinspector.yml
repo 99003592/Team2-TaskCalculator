@@ -1,4 +1,4 @@
-name: Cppcheck
+name: Git Inspector
 
 on:
   push:
@@ -17,11 +17,16 @@ jobs:
       run: sudo apt -y install python
     - name: Install gitinspector
       run: | 
-        pushd ~
+        pushd ~ &> /dev/null
         git clone https://github.com/ejwa/gitinspector.git
         cd gitinspector
         echo "export PATH=$(pwd):"'$PATH' >> ~/.profile
-        source ~/.profile
-        popd
+        popd &> /dev/null
     - name: Run gitinspector
-      run: gitinspector.py -wTHl --format=text -f c,h,md,yml,* .
+      run: |
+        source ~/.profile
+        export PYTHONIOENCODING=utf-8
+        gitinspector.py --version
+        echo "============ Git Inspector ==========="
+        gitinspector.py -wTHl --format=text -f c,h,md,yml,* .
+        echo "======================================"
