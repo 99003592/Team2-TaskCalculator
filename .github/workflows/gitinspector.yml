@@ -1,0 +1,27 @@
+name: Cppcheck
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Install python
+      run: sudo apt -y install python
+    - name: Install gitinspector
+      run: | 
+        pushd ~
+        git clone https://github.com/ejwa/gitinspector.git
+        cd gitinspector
+        echo "export PATH=$(pwd):"'$PATH' >> ~/.profile
+        source ~/.profile
+        popd
+    - name: Run gitinspector
+      run: gitinspector.py -wTHl --format=text -f c,h,md,yml,* .
