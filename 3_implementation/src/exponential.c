@@ -3,6 +3,11 @@
 #include <math.h>
 #include <stdlib.h>
 
+int exponential(int b, int p)
+{
+    return pow(b, p);
+}
+
 void do_exponential()
 {
     double a,num, p;
@@ -13,7 +18,7 @@ void do_exponential()
     printf("power : ");
     scanf("%lf",&num);
  
-    p=pow(a,num);
+    p=exponential(a,num);
  
     printf("\n%lf to the exponential %lf = %lf \n",a,num,p);
 }

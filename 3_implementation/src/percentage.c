@@ -1,18 +1,23 @@
 #include <stdio.h>
 #include "percentage.h"
 
+float percentage(int n, int d)
+{
+   return (float)n / d * 100.0;
+}
+
 void do_percentage() 
 {
-   float percentage;
+   float p;
    int deno, numo = 0;
    printf("\nPlease enter numerator  : ");
    scanf("%d", &numo); 
    printf("\nPlease enter denominator  : ");
    scanf("%d", &deno);
 
-   percentage = (float)numo / deno * 100.0;
+   p = percentage(numo, deno);
 
-   printf("Percentage = %.2f%%", percentage);
+   printf("Percentage = %.2f%%", p);
 
 }
 

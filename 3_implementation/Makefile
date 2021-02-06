@@ -13,6 +13,14 @@ COMM_SRC = src/is_prime.c \
 
 # Include additional C test files
 COMM_TST = test/test_is_prime.c \
+		 	test/test_addition.c \
+			test/test_subtraction.c \
+			test/test_multiplication.c \
+			test/test_division.c \
+			test/test_exponential.c \
+			test/test_factorial.c \
+			test/test_modulus.c \
+			test/test_percentage.c \
 
 # Application Variables
 SRC = $(COMM_SRC) \
