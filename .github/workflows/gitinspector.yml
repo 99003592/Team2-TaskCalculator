@@ -34,6 +34,7 @@ jobs:
         gitinspector.py -wTHl --format=text -f c,h,md,yml,* -x file:3_implementation/unity -x file:doc .
         gitinspector.py -wTHl --format=html -f c,h,md,yml,* -x file:3_implementation/unity -x file:doc . > result.html
         echo "======================================"
+        git status
     - name: Update Results to gh-pages
       uses: EndBug/add-and-commit@v7
       with:
@@ -41,4 +42,4 @@ jobs:
         author_name: Github Actions
         author_email: actions@github.com
         add: 'result.html'
-        message: "[auto] Update Results for ${{ env.GITHUB_SHA_SHORT }}\nCommit SHA ${{ env.GITHUB_SHA }}"
+        message: "[auto] Update Results for $GITHUB_SHA_SHORT\nCommit SHA $GITHUB_SHA"
