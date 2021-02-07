@@ -46,5 +46,5 @@ jobs:
         git config user.name "GitHub Actions"
         git config user.email actions@github.com
         git add result.html
-        git commit -m "[auto] Update Results for $GITHUB_SHA_SHORT\nCommit SHA $GITHUB_SHA"
+        git commit -m "[auto] Update Results for commit SHA $GITHUB_SHA"
         git push
