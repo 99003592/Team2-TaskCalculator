@@ -8,6 +8,6 @@ void do_subtraction()
     scanf("%f", &a); 
     printf("Please enter second number : "); 
     scanf("%f", &b); 
-    c = (a) - (b); 
-    printf("\n%d - %d = %d\n", a, b, c); 
+    c = a - b; 
+    printf("\n%f - %f = %f\n", a, b, c); 
 }
