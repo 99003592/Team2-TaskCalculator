@@ -4,7 +4,7 @@
 
 void do_percentage() 
 {
-   ufloat percentage;
+   float percentage;
    int deno, numo = 0;
    printf("\nPlease enter numerator  : ");
    scanf("%d", &numo); 
