@@ -45,7 +45,7 @@ void calc_opr()
 	printf("Enter L or l for Modulus \n");
 	printf("Enter F or f for Factorial \n");
 	printf("Enter E or e for Exponential \n");
-	printf("Enter R or p for Checking prime \n");
+	printf("Enter R or r for Checking prime \n");
 }
 
 int main(void)
