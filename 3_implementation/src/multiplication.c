@@ -3,11 +3,11 @@
 
 void do_multiplication()
 {
-    int a, b, mul=0; 
+    double a, b, mul=0; 
     printf("\nPlease enter first numb   : "); 
-    scanf("%d", &a); 
+    scanf("%lf", &a); 
     printf("Please enter second number: "); 
-    scanf("%d", &b);
+    scanf("%lf", &b);
     mul=a*b;
-    printf("\nMultiplication of entered numbers = %d\n",mul);
+    printf("\nMultiplication of entered numbers = %lf\n",mul);
 }
