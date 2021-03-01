@@ -9,6 +9,15 @@ void do_division()
     scanf("%d", &a); 
     printf("Please enter second number : "); 
     scanf("%d", &b);
-    d=a/b;
-    printf("\nDivision of entered numbers=%f\n",d);
+     if(b != 0)
+     {
+   		d = (float)a/(float)b;
+		printf("%.1f\n", d);
+	 } 
+	else 
+	 {
+	 		printf("Division not possible.\n");
+	  }
+return 0;
 }
+
