@@ -7,6 +7,10 @@ Build | Cppcheck | Unity | [Git Inspector](https://99003592.github.io/Team2-Task
 ![C/C++ CI](https://github.com/99003592/Team2-TaskCalculator/workflows/C/C++%20CI/badge.svg) | ![Cppcheck](https://github.com/99003592/Team2-TaskCalculator/workflows/Cppcheck/badge.svg) |[![Unity - Unit Testing](https://github.com/99003592/Team2-TaskCalculator/actions/workflows/unity.yml/badge.svg)](https://github.com/99003592/Team2-TaskCalculator/actions/workflows/unity.yml) | ![Git Inspector](https://github.com/99003592/Team2-TaskCalculator/workflows/Git%20Inspector/badge.svg) |
 [![Valgrind](https://github.com/99003592/Team2-TaskCalculator/actions/workflows/Valgrind.yml/badge.svg)](https://github.com/99003592/Team2-TaskCalculator/actions/workflows/Valgrind.yml) |
 
+| Codacy                                                                                                                                                                                                                                                                                     |
+|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [![Codacy Badge](https://app.codacy.com/project/badge/Grade/1cc2cea9760a463bba919a9c18109bde)](https://www.codacy.com/gh/99003592/Team2-TaskCalculator/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=99003592/Team2-TaskCalculator&amp;utm_campaign=Badge_Grade) |
+
 
 ## Folder Structure
 Folder             | Description
