@@ -70,7 +70,7 @@ int main(void)
 		case 'D': 
 		case 'd': do_division();
 				break;
-		case 'P'
+		case 'P':
 		case 'p': do_percentage();
 				break;
 		case 'L':
