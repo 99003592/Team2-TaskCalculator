@@ -45,7 +45,7 @@ void calc_opr()
 	printf("Enter L or l for Modulus \n");
 	printf("Enter F or f for Factorial \n");
 	printf("Enter E or e for Exponential \n");
-	printf("Enter P or p for Checking prime \n");
+	printf("Enter R or p for Checking prime \n");
 }
 
 int main(void)
@@ -70,7 +70,8 @@ int main(void)
 		case 'D': 
 		case 'd': do_division();
 				break;
-		case '%': do_percentage();
+		case 'P'
+		case 'p': do_percentage();
 				break;
 		case 'L':
 		case 'l': do_modulus();
@@ -81,8 +82,8 @@ int main(void)
 		case 'E': 
 		case 'e': do_exponential();
 				break;
-		case 'P': 
-		case 'p': is_prime();
+		case 'R': 
+		case 'r': is_prime();
 				break;					
 		case 'Q': 
 		case 'q': exit(0);
