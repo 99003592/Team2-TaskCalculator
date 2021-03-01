@@ -4,7 +4,7 @@ Visit [Pages for Short Report](https://99003592.github.io/Team2-TaskCalculator/)
 
 Build | Cppcheck | Unity | [Git Inspector](https://99003592.github.io/Team2-TaskCalculator/result)
 ------|----------|-------|--------------
-![C/C++ CI](https://github.com/99003592/Team2-TaskCalculator/workflows/C/C++%20CI/badge.svg) | ![Cppcheck](https://github.com/99003592/Team2-TaskCalculator/workflows/Cppcheck/badge.svg) | ![Unity - Unit Testing](https://github.com/99003592/Team2-TaskCalculator/workflows/Unity%20-%20Unit%20Testing/badge.svg) | ![Git Inspector](https://github.com/99003592/Team2-TaskCalculator/workflows/Git%20Inspector/badge.svg)
+![C/C++ CI](https://github.com/99003592/Team2-TaskCalculator/workflows/C/C++%20CI/badge.svg) | ![Cppcheck](https://github.com/99003592/Team2-TaskCalculator/workflows/Cppcheck/badge.svg) |[![Unity - Unit Testing](https://github.com/99003592/Team2-TaskCalculator/actions/workflows/unity.yml/badge.svg)](https://github.com/99003592/Team2-TaskCalculator/actions/workflows/unity.yml) | ![Git Inspector](https://github.com/99003592/Team2-TaskCalculator/workflows/Git%20Inspector/badge.svg)
 
 
 ## Folder Structure
