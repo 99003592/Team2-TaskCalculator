@@ -53,7 +53,6 @@ Also known as calculating machine.A calculator is a device that performs arithme
 4. Division
 
 - On encountering a division by 0 the display should read &quot;Cannot Divide by 0&quot; and typing the key &quot;C&quot; should reset the calculator.
-- Includes buttons with number 0 to 9.
 - calculator must provide with on,off and memory operations.
 - On calculating the square root value of a negative operand the display should read &quot;Wrong Operand&quot;.
 
