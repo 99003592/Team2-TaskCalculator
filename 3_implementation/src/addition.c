@@ -8,11 +8,16 @@ void do_addition()
     printf("\nEnter the number of elements you want to add:");
     scanf("%d",&n);
     printf("Please enter %d numbers one by one: \n",n);
-    while(k<n)
-    { 
-        scanf("%f",&number);
-        total=total+number;
-        k=k+1;
+    if(n>0){
+        while(k<n)
+        { 
+            scanf("%f",&number);
+            total=total+number;
+            k=k+1;
+        }
+        printf("Sum of %d numbers = %f \n",n,total);
+    } else {
+        printf("Invalid input");
     }
-    printf("Sum of %d numbers = %f \n",n,total);
+    
 }
