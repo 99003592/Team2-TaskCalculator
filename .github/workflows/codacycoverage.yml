@@ -16,4 +16,4 @@ jobs:
         uses: codacy/codacy-coverage-reporter-action@master
         with:
           project-token: <7c98a4d037284c1b80088dff138a750a>
-          coverage-reports: --partial
+          coverage-reports: ..
