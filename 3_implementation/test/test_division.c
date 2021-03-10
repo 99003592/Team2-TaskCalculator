@@ -8,6 +8,11 @@ void test_division_basic(void)
 	TEST_ASSERT_EQUAL( 1.7, division(96, 56));
 }
 
+void test_division_advance(void) 
+{
+	TEST_ASSERT_EQUAL(0,division(0, 2121));
+}
+
 int test_division(void)
 {
 	/* Initiate the Unity Test Framework */
@@ -15,6 +20,7 @@ int test_division(void)
 
 	/* Run Test functions */
 	RUN_TEST(test_division_basic);
+	RUN_TEST(test_division_advance);
 
 	/* Close the Unity Test Framework */
 	return UNITY_END();
