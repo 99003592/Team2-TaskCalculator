@@ -15,5 +15,5 @@ jobs:
       - name: Run codacy-coverage-reporter
         uses: codacy/codacy-coverage-reporter-action@main
         with:
-          project-token: ${{ 7c98a4d037284c1b80088dff138a750a }}
+          project-token: <7c98a4d037284c1b80088dff138a750a>
           coverage-reports: cobertura.xml
