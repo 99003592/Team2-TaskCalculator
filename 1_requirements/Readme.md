@@ -51,6 +51,11 @@ Also known as calculating machine.A calculator is a device that performs arithme
 2. Subtraction
 3. Multiplication
 4. Division
+5. Percentage
+6. Modulus
+7. Factorial
+8. Exponential
+9. Checking Prime
 
 - On encountering a division by 0 the display should read &quot;Cannot Divide by 0&quot; and typing the key &quot;C&quot; should reset the calculator.
 - calculator must provide with on,off and memory operations.
